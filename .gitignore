@@ -31,6 +31,7 @@ doc/api/
 .pub/
 coverage/
 lib/generated_plugin_registrant.dart
+google-services.json
 # For library packages, don’t commit the pubspec.lock file.
 # Regenerating the pubspec.lock file lets you test your package against the latest compatible versions of its dependencies.
 # See https://dart.dev/guides/libraries/private-files#pubspeclock
@@ -44,7 +45,7 @@ lib/generated_plugin_registrant.dart
 **/android/gradlew.bat
 **/android/key.properties
 **/android/local.properties
-**/android/app/google-service.json
+**/android/**/google-service.json
 **/android/**/GeneratedPluginRegistrant.java
 
 # iOS/XCode related
